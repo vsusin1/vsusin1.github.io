@@ -1,5 +1,27 @@
 const projects = [
     {
+        "name": "Projet Biblio",
+        "used_technologies": ["DotNet"],
+        "images": [
+            {
+                "src": "biblio_1.png",
+                "caption": "La page de connexion."
+            },
+            {
+                "src": "biblio_2.png",
+                "caption": "Les catégories de livres."
+            },
+            {
+                "src": "biblio_3.png",
+                "caption": "La liste des livres dans une catégorie."
+            },
+            {
+                "src": "biblio_4.png",
+                "caption": "La page utilisateur."
+            }
+        ]
+    },
+    {
         "name": "Projet Bonbons",
         "used_technologies": ["PHP", "Bootstrap", "MySQL"],
         "images": [
@@ -63,7 +85,8 @@ function makeTechnoIcon(name)
 
     const technoIconsSvgSrc = {
         "c#" : "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
-        "mysql": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mysql-icon.png"
+        "mysql": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mysql-icon.png",
+        "dotnet": "https://cdn.freebiesupply.com/logos/large/2x/dotnet-logo-png-transparent.png"
     }
 
     let slug = name.toLowerCase();
